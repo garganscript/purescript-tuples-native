@@ -4,9 +4,7 @@ You can edit this file as you like.
 -}
 { name = "tuples-native"
 , dependencies =
-  [ "console"
-  , "effect"
-  , "functions"
+  [ "functions"
   , "prelude"
   , "psci-support"
   , "tuples"
@@ -14,5 +12,5 @@ You can edit this file as you like.
   , "typelevel-prelude"
   ]
 , packages = ./packages.dhall
-, sources = [ "src/**/*.purs", "test/**/*.purs" ]
+, sources = [ "src/**/*.purs" ]
 }

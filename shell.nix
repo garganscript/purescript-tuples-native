@@ -8,12 +8,13 @@ let
   '';
 in
 pkgs.mkShell {
-  name = "purescript-reactix-d3";
+  name = "purescript-tuples-native";
 
   buildInputs = [
-    easy-ps.purs-0_14_2
+    easy-ps.purs-0_15_0
     easy-ps.psc-package
     build
     pkgs.dhall-json
+    pkgs.nodejs
   ];
 }
